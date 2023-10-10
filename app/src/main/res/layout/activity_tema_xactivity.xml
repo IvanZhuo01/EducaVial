@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".TemaXActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="590dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/reproducir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/forma_boton_retro_sig"
+                    android:contentDescription="@string/theme_play"
+                    app:srcCompat="@drawable/sonido" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imagen"
+                    android:layout_width="245dp"
+                    android:layout_height="245dp"
+                    android:layout_gravity="center"
+                    app:shapeAppearanceOverlay="@style/roundImage"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/overpass_bold"
+                    android:gravity="center"
+                    android:text="Lorem ipsum dolor sit amet."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/texto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/overpass"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae ipsum quam. Nulla eu tellus tellus. Curabitur pharetra porttitor consequat. Ut commodo tortor ut lacus iaculis feugiat. Integer lorem ante, sagittis pulvinar maximus ut, ultrices id augue. Etiam odio lacus, molestie sit amet cursus id, pulvinar vel urna. Suspendisse potenti. Phasellus eleifend pharetra leo, non sollicitudin nisl ultricies ut.  Sed non rutrum dolor. Mauris convallis ipsum vel eros ultrices ornare. Donec euismod aliquet nibh in dignissim. Ut nulla est, eleifend non faucibus sed, cursus ac elit. Mauris vitae aliquet quam. Maecenas faucibus scelerisque mattis. Duis accumsan suscipit nibh, at convallis mi. Donec sed euismod dui, quis consequat dui. Suspendisse mauris nisi, vehicula non lacus id, bibendum ultricies nulla. Praesent finibus, magna sed pharetra pulvinar, lectus purus eleifend enim, nec maximus justo neque pulvinar nibh. Mauris ultrices ligula nulla, a dapibus quam pulvinar vel.  Nunc auctor lectus ut hendrerit suscipit. Etiam ultricies lobortis neque at elementum. Quisque eu justo eu lacus vehicula gravida vitae quis elit. Cras eu sem rhoncus, tempor mauris a, commodo justo. Morbi in leo lacinia, iaculis urna vel, maximus dui. Quisque id imperdiet odio. Sed sed ultrices tellus. Etiam sed pharetra diam, sed cursus eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet odio ut quam lacinia, eget posuere felis venenatis. Ut est leo, scelerisque eget dapibus eget, scelerisque ut lectus. Praesent ac nunc imperdiet, porttitor lectus quis, ullamcorper nisi. Maecenas luctus eros arcu, id egestas arcu tincidunt ac. Donec ut lacus vel lectus tincidunt eleifend vitae non neque. Fusce pharetra lacus ut mauris suscipit vulputate.  In hac habitasse platea dictumst. Morbi ex urna, efficitur quis varius at, venenatis sed ipsum. Aliquam vel rhoncus mauris, eu fermentum odio. Etiam venenatis efficitur tincidunt. Fusce tincidunt imperdiet felis, quis porta diam bibendum eu. Sed vitae convallis diam. Nullam leo quam, eleifend at mauris vitae, suscipit dignissim velit. Nunc at bibendum libero, vitae posuere erat. Etiam sed dignissim erat. Etiam eu mauris sagittis, cursus lectus nec, accumsan dolor.  Morbi eleifend diam eu tortor mattis pulvinar. Fusce in pellentesque purus. Integer sed dictum libero. Donec ac ullamcorper risus. Nunc interdum mollis gravida. Quisque viverra neque id ex aliquam, venenatis hendrerit odio efficitur. Donec est leo, viverra sit amet tristique non, eleifend et metus. Mauris non magna ultricies, ultrices lacus sed, facilisis magna. Vestibulum tincidunt rutrum arcu ut luctus. Vestibulum sollicitudin at dui at ornare. Proin porttitor, diam et laoreet laoreet, eros felis imperdiet eros, in dictum leo lacus ac tortor. Aenean consectetur, metus ac tristique eleifend, dolor leo efficitur sem, at molestie purus arcu sed lectus. Cras iaculis vulputate dictum."
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/ant"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/forma_boton_retro_sig"
+                    android:drawableTop="@drawable/anterior"
+                    android:text="@string/Theme_return"
+                    android:textAllCaps="false" />
+
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sig"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/forma_boton_retro_sig"
+                    android:drawableTop="@drawable/siguiente"
+                    android:text="@string/Theme_next"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

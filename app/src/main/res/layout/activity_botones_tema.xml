@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BotonesTemaActivity"
+    android:background="#7875FF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/boton_redondo"
+            android:drawableTop="@drawable/temario_aprender"
+            android:fontFamily="@font/fredoka_one"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/aprender"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/temario_aprender" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageButton2"
+            android:layout_below="@id/imageButton"
+            android:layout_centerHorizontal="true"
+            android:scaleY="2"
+            app:srcCompat="@drawable/flecha" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:layout_marginBottom="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/boton_redondo"
+            android:drawableTop="@drawable/temario_evaluar"
+            android:fontFamily="@font/fredoka_one"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="@string/evaluar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:srcCompat="@drawable/temario_evaluar" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

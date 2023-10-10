@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/homeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:gravity="center"
+            android:text="@string/homeTitle"
+            android:textColor="#ffc700"
+            android:textSize="64sp"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:shadowDx="2"
+            android:shadowDy="10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/perfil"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/forma_boton"
+                android:contentDescription="@string/profile_des"
+                android:src="@drawable/home_profile"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/tutorial_ad"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/forma_boton"
+                android:contentDescription="@string/tutorial_des"
+                android:src="@drawable/tutorial" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/ajustes"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/forma_boton"
+                android:contentDescription="@string/config_des"
+                android:src="@drawable/home_settings" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/aprender"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_height="250dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/forma_boton_aprender"
+                android:drawableTop="@drawable/home_aprender"
+                android:fontFamily="@font/overpass_bold"
+                android:paddingTop="25dp"
+
+                android:text="@string/aprender" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/evaluar"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/forma_boton_evaluar"
+                android:drawableTop="@drawable/home_evaluar"
+                android:fontFamily="@font/overpass_bold"
+                android:paddingTop="25dp"
+                android:text="@string/evaluar"
+                android:textAllCaps="false"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/escanear"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:textAllCaps="false"
+                android:background="@drawable/forma_boton_escanear"
+                android:drawableTop="@drawable/home_boton_escanear"
+                android:fontFamily="@font/overpass_bold"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:textSize="17sp"
+                android:text="@string/escanear"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

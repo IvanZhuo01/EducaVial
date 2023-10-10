@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".PerfilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/perfil" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/overpass_bold"
+                android:gravity="right"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:paddingRight="5dp"/>
+
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/overpass"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/line"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/overpass_bold"
+                android:gravity="right"
+                android:text="@string/email"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:paddingRight="5dp"/>
+
+            <TextView
+                android:id="@+id/user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/overpass"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/line"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/listaSenales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/forma_boton_senales_a"
+            android:drawableRight="@drawable/flecha_derecha"
+            android:fontFamily="@font/overpass"
+            android:paddingStart="20dp"
+            android:text="@string/learnt_trafic_sign"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rewatchTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/forma_boton_senales_a"
+            android:drawableRight="@drawable/tutorial"
+            android:fontFamily="@font/overpass"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:text="@string/rewatch"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+
+        <Button
+            android:id="@+id/EditarPerfil"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Editar perfil"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

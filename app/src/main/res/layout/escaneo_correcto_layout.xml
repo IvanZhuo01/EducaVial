@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/forma_boton_video">
+
+        <TextView
+            android:id="@+id/textoResultadoEscaneo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Resultado del escaneo"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+
+        <ImageView
+            android:id="@+id/senalEscaneada"
+            android:layout_marginTop="20dp"
+            android:layout_width="128dp"
+            android:layout_gravity="center"
+            android:layout_height="128dp"
+            android:background="@drawable/alert_dialog_shape"
+            />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/overpass_bold"
+        android:text="Lorem"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/overpass"
+            android:justificationMode="inter_word"
+            android:paddingEnd="10dp"
+            android:text="Hola"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingEnd="15dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/escanear_volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:fontFamily="@font/overpass"
+            android:gravity="center"
+            android:text="@string/return_to_syllabus"
+            android:textColor="#3F51B5"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
+

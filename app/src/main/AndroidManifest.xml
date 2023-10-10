@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_ev_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EducaVial"
+        tools:targetApi="31">
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EscanearActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ListaSenalesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TemaXActivity"
+            android:exported="false"
+            android:parentActivityName=".TemarioActivity" />
+        <activity
+            android:name=".EvaluacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BotonesTemaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TemarioActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TutorialActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".AjustesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ajustes" />
+        <activity
+            android:name=".ReproducirActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_reproducir" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

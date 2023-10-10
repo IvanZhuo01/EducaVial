@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:background">@drawable/alert_dialog_main_shape</item>
+    <item name="android:colorAccent">@color/black</item>
+</style>
+</resources>

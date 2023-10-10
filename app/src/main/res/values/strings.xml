@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">EducaVial</string>
+    <string name="homeTitle">EducaVial</string>
+    <string name="aprender">Aprender</string>
+    <string name="evaluar">Evaluar</string>
+    <string name="escanear">Escanear</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="title_activity_ajustes">Ajustes</string>
+    <string name="title_activity_reproducir">Reproducir</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Perfil</string>
+    <string name="name">Nombre:</string>
+    <string name="email">Correo:</string>
+    <string name="learnt_trafic_sign">Señales aprendidas</string>
+    <string name="best_score">Puntuaciones</string>
+    <string name="rewatch">Volver a ver el tutorial</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="edit_text">Puede editar el usuario y el correo</string>
+
+    <!-- Syllabus -->
+    <string name="syllabus_title">Temario</string>
+    <string name="scroll_desc">Todos los temarios de la aplicación</string>
+    <string name="theme_1">Tema 1: Señales</string>
+    <string name="theme_2">Tema 2: Carreteras</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor</string>
+
+    <!-- Theme -->
+    <string name="Theme_return">Anterior</string>
+    <string name="Theme_next">Siguiente</string>
+    <string name="theme_play">Reproducir el texto</string>
+    <string name="congratulation">¡Felicidades!</string>
+    <string name="cong_info">Has completado el temario, pulse el botón para volver al Temario</string>
+    <string name="return_to_syllabus">Volver</string>
+    <string name="content_1_title">Señal de STOP</string>
+    <string name="content_1_text">La señal de STOP indica la obligación de detener el vehículo por completo en ese punto. Suele ir acompañada de una marca de pintura sobre la calzada que indica la línea de detención antes de la cual debemos detener el vehículo. La señal de STOP es de forma octogonal con fondo rojo y la palabra STOP en letras blancas.</string>
+    <string name="content_2_title">Señal de Velocidad máxima 30 km/h</string>
+    <string name="content_2_text">Esta señal nos indica la prohibición de circular a una velocidad superior de 30 km/h. Obliga desde el lugar en que esté situada hasta la próxima señal de «Fin de la limitación de velocidad», de «Fin de prohibiciones» u otra de «velocidad máxima», salvo que esté colocada en el mismo poste que una señal de advertencia de peligro o en el mismo panel que ésta, en cuyo caso la prohibición finaliza cuando termine el peligro señalado. Esta señal tiene forma circular y es de color rojo y blanco.</string>
+    <string name="content_3_title">Señal de Prohibido el paso a personas</string>
+    <string name="content_3_text">Esta señal de seguridad prohíbe el paso a cualquier persona que no pertenezca a la empresa en donde está situada la señal. La señal de Prohibido el paso a personas tiene forma circular y es de color rojo y blanco.</string>
+
+    <!-- Examination -->
+    <string name="examination_title">Evaluación</string>
+    <string name="examination_scroll_desc">Todas las evaluaciones disponibles de la aplicación</string>
+
+    <!-- Menu item -->
+    <string name="help">Botón de ayuda</string>
+
+    <!-- Alert Dialog -->
+    <string name="alert_title">Ayuda</string>
+    <string name="alert_config_text">En esta pantalla puedes modificar la configuración de la aplicación.</string>
+    <string name="alert_profile_text">Pantalla de perfil de usuario que muestra las opciones y datos del usuario.</string>
+    <string name="alert_syllabus_text">Pulsa en un tema para empezar a estudiar.</string>
+    <string name="alert_examination_text">Pulsa en un tema para evaluarte.</string>
+    <string name="alert_button_theme_text"></string>
+    <string name="alert_theme_text">Aquí podrás ver la información del temario, pulsa siguiente para avanzar.</string>
+    <string name="alert_video_text">En esta pantalla puedes utilizar el reproductor para ver un vídeo.</string>
+    <string name="alert_scanner_text">En esta pantalla puedes escanear una señal y obtener información sobre ella. Cuadra la señal dentro del rectángulo para obtener mejores resultados.</string>
+    <string name="alert_tutorial_text">En esta pantalla se muestra un video explicativo sobre el uso de la aplicación.</string>
+    <string name="alert_test_text">Pulsa en una de las imágenes y después en el nombre corespondiente. Puedes reintentar el test si fallas.</string>
+    <string name="alert_list_signal_text">Aqui puedes visualizar la lista de señales aprendidas</string>
+    <!-- Content description -->
+    <string name="profile_des">Boton para acceder al perfil</string>
+    <string name="config_des">Botón para acceder a ajustes</string>
+    <string name="tutorial_des">Botón para ver el tutorial</string>
+
+    <!-- Setting titles -->
+    <string name="preference_header">Preferencias</string>
+    <string name="accesibility_header">Accesibilidad</string>
+    <string name="tutorial_header">Tutorial</string>
+    <string name="content_header">Contenido</string>
+    <string name="authomatic_read_key">authomatic_read</string>
+    <string name="tutorial_key">tutorial_ad</string>
+
+    <!-- Accesibility Preferences -->
+    <string name="voice_response_title">Respuesta por voz</string>
+    <string name="voice_response_summary">Permite al usuario responder las preguntas por voz</string>
+    <string name="authomatic_read_title">Lectura Automática</string>
+    <string name="authomatica_read_summary">Permite al usuario que el texto se pueda escuchar</string>
+
+    <!-- Preference Preferences -->
+    <string name="guide_title">Guias</string>
+    <string name="guide_summary">Textos pequeños que aparecen describiendo diversas funcionalidades</string>
+
+    <!-- Tutorial Preferences -->
+    <string name="tutorial_title">Tutorial</string>
+    <string name="tutorial_summary">Pulsa aquí para volver a ver el tutorial</string>
+
+    <!-- Test  -->
+    <string name="stop"> Señal de stop</string>
+    <string name="velocidad"> Señal de velocidad\n máxima 30 km/h</string>
+    <string name="prohibido"> Señal de paso\n prohibido</string>
+    <string name="cong_title">¡Acierto!</string>
+    <string name="cong_text">¡Sigue así, lo estás haciendo muy bien! </string>
+    <string name="f_title">¡Fallo!</string>
+    <string name="f_text">¡Sigue Intentándolo!</string>
+    <string name="again">Reintentar</string>
+    <string name="cont">Continuar</string>
+    <string name="exit_title">¡Cuidado!</string>
+    <string name="exit_text">Si vuelves atrás se perderá el progreso del test.</string>
+    <string name="exit">Salir</string>
+
+    <!--Lista de señales-->
+    <string name="filtro_nombre">Nombre</string>
+    <string name="filtro_forma">Forma</string>
+    <string name="filtro_color">Color</string>
+    <string name="loading">Cargando...</string>
+    <string name="returnList">Volver a la lista de señales</string>
+
+    <!--Tutorial-->
+    <string name="tuto">Parece que es la primera vez que utilizas EducaVial, ¿quieres ver un tutorial?</string>
+</resources>
